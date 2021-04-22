@@ -2321,8 +2321,8 @@ input, select, textarea {
 
 		ul.icons.major {
 			padding: 1em 0;
+			flex-wrap: wrap;
 			
-
 		}
 
 			ul.icons.major li {
@@ -2341,7 +2341,7 @@ input, select, textarea {
 	.logos {
 		display: flex;
 		justify-content: center;
-		/* flex-wrap: wrap; */
+		
 	}
 	
 	.imageTitle {
