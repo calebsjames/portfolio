@@ -4036,6 +4036,7 @@ input, select, textarea {
 	.projectCard:hover {
 		background-color:#2a3846 !important;
 		opacity:0.5;
+		cursor: pointer;
 		
 		
 
@@ -4085,7 +4086,7 @@ input, select, textarea {
 	  #modal--close{
 		  align-self: flex-end;
 		  flex: none;
-		  margin: 20px 0px;
+		  padding: 0px 10px;
 	  }
 
 	  .modalTitle{
@@ -4107,5 +4108,16 @@ input, select, textarea {
 		border: 1px solid #2a3846;
 		border-radius: 2px;
 		margin-bottom: 20px;
+		background: #2a3846 ;
 		padding: 3px 10px;
+		color: #eeeeec;
+
+	}
+
+	.readMore{
+		color: #eeeeec !important
+	}
+
+	.gif {
+		border: 1px solid #2a3846;
 	}
